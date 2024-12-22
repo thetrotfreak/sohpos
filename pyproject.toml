@@ -1,0 +1,36 @@
+[project]
+name = "sohpos"
+version = "0.9.0"
+description = "Internet Access Portal"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "flet[all]==0.25.1",
+  "pydantic>=2.10.4",
+]
+
+
+[tool.flet]
+# org name in reverse domain name notation, e.g. "com.mycompany".
+# Combined with project.name to build bundle ID for iOS and Android apps
+org = "io.github.thetrotfreak"
+
+# project display name that is used as an app title on Android and iOS home screens,
+# shown in window titles and about app dialogs on desktop.
+product = "Sohpos"
+
+# company name to display in about app dialogs
+company = "thetrotfreak"
+
+# copyright text to display in about app dialogs
+copyright = "Copyright (C) 2024 by thetrotfreak"
+
+[tool.flet.app]
+path = "src"
+
+[dependency-groups]
+dev = [
+    "autoflake>=2.3.1",
+    "isort>=5.13.2",
+    "ruff>=0.8.4",
+]
