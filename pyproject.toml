@@ -32,5 +32,7 @@ path = "src"
 dev = [
     "autoflake>=2.3.1",
     "isort>=5.13.2",
+    "pillow>=10.4.0",
+    "pyinstaller>=6.11.1",
     "ruff>=0.8.4",
 ]
