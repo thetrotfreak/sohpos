@@ -9,7 +9,7 @@ Another way (perhaps, nicer?) to use the Student WiFi at CHRIST University
 - Personalize to you liking :) .
 
 # I want to Try!
-- Download the Windows x64 beta release [from here](https://github.com/thetrotfreak/sohpos/releases/download/v0.9.0-beta.1/sohpos.exe)
+- Download the Windows x64 beta release [from here](https://github.com/thetrotfreak/sohpos/releases/download/v0.9.0-beta.2/sohpos.exe)
 
 # Gallery
 ![image](https://github.com/user-attachments/assets/8e1ae9c2-481d-4191-aaf7-3a22f4cdf4de)
